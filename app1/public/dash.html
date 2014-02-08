@@ -1,0 +1,32 @@
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<h1>App1</h1>
+This is Application 1.
+
+
+<p style="margin-top:50px;">
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+    $scope.value1= "John";
+});
+</script>
+
+
+<div ng-app="myApp" ng-controller="myCtrl">
+<form method=post action="http://localhost:3001/users/test">
+Val1: <input type="text" value="{{value1}}" name="id1"><p>
+Val2: <input type="text" value="" name="id2"><p><p>
+
+<input type="submit" value="submit to App2">
+
+</form>
+</div>
+
+
+<p style="margin-top:50px;">
+<form method=post action="http://localhost:3001/users/test">
+<!-- <form method=post action="http://localhost:3001/"> -->
+<input type="hidden" value="hiddenvalue1" name="id1"><input type="hidden" value="hiddenvalue2" name="id2">
+<input type=submit value="Go to App2" style="background:blue;color:white;padding:10px;">
+</form>
