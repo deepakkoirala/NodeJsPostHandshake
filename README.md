@@ -10,7 +10,7 @@ Open two terminals
 * npm start
 
 
-*cd app2
+* cd app2
 * npm install
 * npm start
 
