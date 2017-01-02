@@ -5,14 +5,14 @@ Passing the value from Node Server 1 to Server 2 during the post handshake. It m
 
 Open two terminals
 
-# Terminal 1
+### Terminal 1
 ```sh
 $ cd app1
 $ npm install
 $ npm start
 ```
 
-# Terminal 2
+#### Terminal 2
 ```sh
 $ cd app2
 $ npm install
