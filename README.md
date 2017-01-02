@@ -5,13 +5,13 @@ Passing the value from Node Server 1 to Server 2 during the post handshake. It m
 
 Open two terminals
 
-cd app1
-npm install
-npm start
+* cd app1
+* npm install
+* npm start
 
 
-cd app2
-npm install
-npm start
+*cd app2
+* npm install
+* npm start
 
 Now navigate to: http://localhost:3000/dash.html
