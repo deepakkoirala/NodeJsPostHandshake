@@ -19,4 +19,4 @@ $ npm install
 $ npm start
 ```
 
-Now navigate to: http://localhost:3000/dash.html
+Now navigate to: [http://localhost:3000/dash.html](http://localhost:3000/dash.html)
